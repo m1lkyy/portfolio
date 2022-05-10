@@ -1204,6 +1204,7 @@ html {
         width: 100%;
         max-width: 1300px;
         padding: 0;
+        position: fixed;
     }
 
       .main-menu {
@@ -1215,6 +1216,7 @@ html {
         opacity: 1;
         transition: all 0.5s ease;
         z-index: -1;
+        position: fixed;
       }
     
       .main-menu.active {
