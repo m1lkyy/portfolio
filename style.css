@@ -1231,7 +1231,7 @@ html {
         height: 55vh;
         font-size: 40px;
         margin: 0;
-        width: 72vh;
+        width: 75vh;
         margin-top: 50px;
       }
 
@@ -1412,7 +1412,7 @@ html {
 
     .main-menu.active {
         height: 55vh;
-        width: 55vh;
+        width: 100;
     }
 
     .main-menu.active li a {
@@ -1564,7 +1564,7 @@ html {
 
     .main-menu.active {
         height: 55vh;
-        width: 51vh;
+        width: 100;
     }
 
     .about #aboutimg {
@@ -1694,7 +1694,7 @@ html {
 
     .main-menu.active {
         height: 55vh;
-        width: 45vh;
+        width: 100;
     }
 
     .main-menu.active li a {
