@@ -18,7 +18,7 @@ const highlightMenu = () => {
   const projectsMenu = document.querySelector('#projects-page');
   const contactMenu = document.querySelector('#contact-page');
   let scrollPos = window.scrollY;
-  // console.log(scrollPos);
+ console.log(scrollPos);
 
 
   if ((elem && window.innerWidth < 576 && scrollPos < 600) || elem) {
@@ -26,22 +26,22 @@ const highlightMenu = () => {
   }
   // adds 'highlight' class to my menu items
 
-  while(window.innerWidth > 768) {
-    if(scrollPos < 500) {
+  while(window.innerWidth >= 768) {
+    if(scrollPos < 486) {
       homeMenu.classList.add('highlight');
       aboutMenu.classList.remove('highlight');
       return;
-    } else if (scrollPos < 1882) {
+    } else if (scrollPos < 1849) {
       aboutMenu.classList.add('highlight');
       projectsMenu.classList.remove('highlight');
       homeMenu.classList.remove('highlight');
       return;
-    } else if (scrollPos < 3400) {
+    } else if (scrollPos < 3400 ) {
       projectsMenu.classList.add('highlight');
       contactMenu.classList.remove('highlight');
       aboutMenu.classList.remove('highlight');
       return;
-    } else if (scrollPos < 3690) {
+    } else if (scrollPos > 3400) {
       contactMenu.classList.add('highlight');
       projectsMenu.classList.remove('highlight');
       return;
@@ -50,16 +50,16 @@ const highlightMenu = () => {
   }
 
   while (window.innerWidth > 576) {
-    if(scrollPos < 584) {
+    if(scrollPos < 511) {
       homeMenu.classList.add('highlight');
       aboutMenu.classList.remove('highlight');
       return;
-    }else if (scrollPos < 3122) {
+    }else if (scrollPos < 2974) {
       aboutMenu.classList.add('highlight');
       projectsMenu.classList.remove('highlight');
       homeMenu.classList.remove('highlight');
       return;
-    } else if (scrollPos < 5671) {
+    } else if (scrollPos < 5523) {
       projectsMenu.classList.add('highlight');
       contactMenu.classList.remove('highlight');
       aboutMenu.classList.remove('highlight');
@@ -78,7 +78,6 @@ const highlightMenu = () => {
     }
     return;
   }
-
 
 };
 
