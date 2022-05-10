@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    overflow-y: scroll;
 }
 html {
     overflow-x:hidden;
@@ -56,14 +55,16 @@ html {
     display: flex;
     justify-content: center;
     color: rgba(240, 234, 234);
-    font-size: 25px;
-    font-family: 'Cormorant', serif;
+    font-size: 22px;
+    font-family: 'Roboto', serif;
+    text-transform: uppercase;
     font-weight: 600;
     transition: 0.2s ease-in-out;
 }
 
 .main .main-menu a:hover {
     color: #fff;
+
 }
 
 .hero {
@@ -1236,7 +1237,7 @@ html {
 
       .main-menu.active li a {
         margin-left: -80px;
-        font-size: 25px;
+        font-size: 22px;
       }
     
       .navbar__toggle .bar {
@@ -1415,7 +1416,7 @@ html {
     }
 
     .main-menu.active li a {
-        font-size: 25px;
+        font-size: 22px;
       }
     
 
@@ -1559,7 +1560,7 @@ html {
     }
 
     .main-menu.active li a {
-        font-size: 25px;
+        font-size: 22px;
     }
     
 
@@ -1699,7 +1700,7 @@ html {
     }
 
     .main-menu.active li a {
-        font-size: 25px;
+        font-size: 22px;
     }
     
 
@@ -1793,5 +1794,3 @@ html {
         font-size: 25px;
     }
 }
-
-
