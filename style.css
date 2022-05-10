@@ -1412,13 +1412,12 @@ html {
 
     .main-menu.active {
         height: 55vh;
-        width: 53vh;
+        width: 55vh;
     }
 
     .main-menu.active li a {
         font-size: 22px;
       }
-    
 
     .about #aboutimg {
         display: flex;
@@ -1545,12 +1544,12 @@ html {
 }
 
 @media screen and (max-width: 375px) {
-
     body {
         overflow-x: hidden;
         width: 100%;
         overflow-y: scroll;
     }
+
     .hero h3 {
         font-size: 18px;
     }
@@ -1562,11 +1561,10 @@ html {
     .main-menu.active li a {
         font-size: 22px;
     }
-    
 
     .main-menu.active {
         height: 55vh;
-        width: 50vh;
+        width: 51vh;
     }
 
     .about #aboutimg {
@@ -1696,13 +1694,12 @@ html {
 
     .main-menu.active {
         height: 55vh;
-        width: 40vh;
+        width: 45vh;
     }
 
     .main-menu.active li a {
         font-size: 22px;
     }
-    
 
     .about #aboutimg {
         display: flex;
