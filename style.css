@@ -4,6 +4,9 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
 }
+html {
+    overflow-x:hidden;
+}
 
 .main {
     height: 10vh;
