@@ -1412,7 +1412,7 @@ html {
 
     .main-menu.active {
         height: 55vh;
-        width: 100;
+        width: 100%;
     }
 
     .main-menu.active li a {
@@ -1564,7 +1564,7 @@ html {
 
     .main-menu.active {
         height: 55vh;
-        width: 100;
+        width: 100%;
     }
 
     .about #aboutimg {
@@ -1694,7 +1694,7 @@ html {
 
     .main-menu.active {
         height: 55vh;
-        width: 100;
+        width: 100%;
     }
 
     .main-menu.active li a {
