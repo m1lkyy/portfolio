@@ -130,7 +130,6 @@ html {
 .about .resume:hover {
     color: #141c3a;
     background-color: rgba(240, 234, 234);
-    font-weight: bold;
 }
 
 .project {
