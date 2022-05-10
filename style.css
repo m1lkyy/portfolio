@@ -1409,6 +1409,11 @@ body {
         width: 53vh;
     }
 
+    .main-menu.active li a {
+        font-size: 25px;
+      }
+    
+
     .about #aboutimg {
         display: flex;
         justify-content: center;
@@ -1541,6 +1546,11 @@ body {
     .hero img {
         margin-left: 0;
     }
+
+    .main-menu.active li a {
+        font-size: 25px;
+    }
+    
 
     .main-menu.active {
         height: 55vh;
@@ -1676,6 +1686,11 @@ body {
         height: 55vh;
         width: 40vh;
     }
+
+    .main-menu.active li a {
+        font-size: 25px;
+    }
+    
 
     .about #aboutimg {
         display: flex;
