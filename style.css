@@ -1,0 +1,1771 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.main {
+    height: 10vh;
+    background-color: #7510F7;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+}
+
+.main .navbar__togle .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: #fff;
+}
+
+.main a, li{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgba(240, 234, 234);
+}
+
+.main .name-logo {
+    font-family: 'Cormorant', serif;
+    font-weight: 600;
+    position: relative;
+    font-size: 20px;
+    transition: 0.2s ease-in-out;
+    display: contents;
+}
+
+.main .name-li {
+    text-align: center;
+}
+
+.main .name-logo:hover {
+    color: #fff;
+}
+
+.main .main-menu {
+    display: flex;
+    justify-content: center;
+    color: rgba(240, 234, 234);
+    font-size: 25px;
+    font-family: 'Cormorant', serif;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+
+.main .main-menu a:hover {
+    color: #fff;
+}
+
+.hero {
+    display: block;
+    text-align: center;
+    padding-top: 80px;
+    background-color: #7510F7;
+    color: rgba(240, 234, 234);
+}
+
+.hero img {
+    height: 320px;
+    padding-top: 50px;
+}
+
+.about {
+    display: block;
+    padding-top: 100px;
+    background-color: rgba(240, 234, 234);
+}
+
+.about h1 {
+    text-align: center;
+    color: #141c3a;
+    font-family: 'Cormorant', serif;
+    font-weight: 600;
+}
+
+.about img {
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.about .container #aboutimg {
+    display: flex;
+    justify-content: center;
+}
+
+.about .p1 {
+    margin-top: 40px;
+}
+
+.about p {
+    font-size: 22px;
+    font-family: 'Europa', sans-serif;
+    color: #141c3a;
+}
+
+.about .resume {
+    text-decoration: none;
+    border: 1px solid #141c3a;
+    background-color: #141c3a;
+    border-radius: 8px;
+    padding: 0.3rem 0.7rem;
+    color: rgb(240, 234, 234);
+    font-family: 'Europa', sans-serif;
+    transition: 0.5s ease-in-out;
+}
+
+.about .resume:hover {
+    color: #141c3a;
+    background-color: rgba(240, 234, 234);
+    font-weight: bold;
+}
+
+.project {
+    display: block;
+    background-color:rgba(240, 234, 234);
+    padding-top: 100px;
+}
+
+
+.project h1 {
+    text-align: center;
+    color: #141c3a;
+    font-family: 'Cormorant', serif;
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.project .firwl h2 {
+    color: #141c3a;
+    font-family: 'Cormorant', serif;
+    font-weight: 600;
+}
+
+.project .firwl h4 {
+    text-transform: uppercase;
+    font-family: 'Cormorant', serif;
+    font-weight: 600;
+    color: #141c3a;
+    margin-bottom: -5px;
+    padding-top: 60px;
+}
+
+.project .project-languages {
+    color: #fff;
+    font-family: 'Europa', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-left: 0;
+}
+  
+.project .project-languages li {
+    border: 2px solid #141c3a;
+    border-radius: 2px;
+    background-color: #141c3a;
+    margin: 0 0.25rem 1rem 0;
+    padding: 0.25rem 0.7rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.project .firwl p {
+    color: #141c3a;
+    font-family: 'Cormorant', serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: -20px;
+    display: block;
+}
+
+.project .firwl-img {
+    width: 605px;
+    height: 306px;
+    background: url(images/firwl.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 0 0 20px black;
+    margin-top: 60px;
+    transition: 0.5s ease-in-out;
+}
+  
+.project .firwl-img:hover {
+    background: url(images/firwl-hover.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0 0 40px black;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.project .color {
+    margin-top: 100px;
+}
+
+.project .container .color h2 {
+    color: #141c3a;
+}
+  
+.project .container .color h4 {
+    text-transform: uppercase;
+    font-family: 'Cormorant', serif;
+    color: #141c3a;
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+  
+.project .color p {
+    color: #141c3a;
+    font-family: 'Cormorant', serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: -20px;
+    display: block;
+}
+
+.project .color-img {
+    background: url(images/color.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 605px;
+    height: 306px;
+    border-radius: 25px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 20px black;
+}
+
+.project .color-img:hover {
+    background: url(images/color-hover1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0 0 40px black;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.project .netflix {
+    margin-top: 100px;
+}
+
+.project .container .netflix h4 {
+    text-transform: uppercase;
+    font-family: 'Cormorant', serif;
+    color: #141c3a;
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+  
+.project .container .netflix h2 {
+    color: #141c3a;
+}
+
+.project .netflix p {
+    color: #141c3a;
+    font-family: 'Cormorant', serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: -20px;
+    display: block;
+}
+
+
+.project .netflix-img {
+    background: url(images/netflix.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 605px;
+    height: 306px;
+    border-radius: 25px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 20px black;
+}
+
+.project .netflix-img:hover {
+    background: url(images/netflix-hover.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0 0 40px black;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+  
+.project .gpt3 {
+    margin-top: 100px;
+}
+
+.project .container .gpt3 h2 {
+    color: #141c3a;
+}
+
+.project .container .gpt3 h3 {
+    color: #141c3a;
+    text-transform: uppercase;
+    font-family: 'Cormorant', serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.project .container .gpt3 h4 {
+    text-transform: uppercase;
+    font-family: 'Cormorant', serif;
+    color: #141c3a;
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+
+.project .gpt3 p {
+    color: #141c3a;
+    font-family: 'Cormorant', serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+.project .gpt3 .gpt3-img {
+    border-radius: 25px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 20px black;
+    filter: blur(5px);
+    margin-top: 20px;
+}
+
+.project .gpt3 .gpt3-img:hover {
+    box-shadow: 0 0 40px black;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.contact {
+    background-color: rgba(240, 234, 234);
+    padding-top: 120px;
+}
+
+.contact h1 {
+    text-align: center;
+    color: #141c3a;
+    font-family: 'Cormorant';
+    font-weight: 700;
+}
+
+.contact h2 {
+    position: relative;
+    border-bottom: 1px dotted #141c3a;
+    font-family: 'Cormorant', serif;
+    font-weight: 700;
+}
+
+.contact h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact .contact-details p {
+    text-align: left;
+    color: #141c3a;
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact .contact-details a {
+    text-decoration: none;
+    color: rgb(240, 234, 234);
+    transition: 0.3s ease-in-out;
+    font-family: 'Cormorant', serif;
+    font-weight: 600;
+    font-size: 20px;
+    border: 1px solid #141c3a;
+    background-color: #141c3a;
+    padding: 0.25rem 0.7rem;
+    border-radius: 10px;
+}
+
+.contact .contact-details a:hover {
+    background-color: rgb(240, 234, 234);
+    color: #141c3a;
+}
+
+.contact .col-md-5 {
+    margin-top: 80px;
+}
+
+.contact .col-md-7 {
+    margin-top: 80px;
+    position: relative;
+    right: -120px;
+    margin-bottom: 40px;
+}
+
+.contact form {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 50px;
+    width: 600px;
+}
+
+.contact form textarea, .contact form input, .contact form button {
+    width: 100%;
+    border: 0;
+    outline: none;
+    margin-bottom: 15px;
+    height: 40px;
+}
+
+.contact form textarea {
+    height: 80px;
+}
+
+#email {
+    width: 250px;
+}
+
+.contact form button {
+    background-color: #7510F7;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    bottom: 0;
+    width: 250px;
+    height: 40px;
+    margin-top: 29.4px;
+    transition: 0.3s;
+    clip-path: polygon(70% 0%, 100% 0, 100% 84%, 98% 100%, 0 100%, 0% 70%, 0 0);
+}
+
+.contact form button:hover {
+    opacity: 80%;
+}
+
+.contact form label {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 5px;
+}
+
+.footer {
+    background-color: #111618;
+    display: block;
+}
+
+.footer h1 {
+    color: rgb(240, 234, 234);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer h2 {
+    color: rgb(240, 234, 234);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer .icons {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.footer .fa-twitter, .fa-linkedin, .fa-instagram-square, .fa-github {
+  color: #7510F7;
+  margin-left: 15px;
+}
+
+.footer .fa-twitter:hover, .fa-linkedin:hover, .fa-instagram-square:hover, .fa-github:hover {
+  opacity: 90%;
+}
+
+.skills {
+    padding-top: 100px;
+    background-color: rgba(240, 234, 234);
+}
+
+.skills h1 {
+    text-align: center;
+    font-family: 'Cormorant', serif;
+    font-weight: 600;
+}
+
+.skills p {
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Europa', serif;
+}
+
+.skills .row {
+    padding-top: 50px;
+}
+
+.skills .icons {
+    font-size: 60px;
+}
+
+.skills .fa-html5{
+    display: flex;
+    justify-content: center;
+}
+
+.skills .fa-bootstrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.skills .fa-css3-alt {
+    display: flex;
+    justify-content: center;
+}
+
+.skills .fa-react {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.skills .fa-js-square {
+    display: flex;
+    justify-content: center;
+}
+
+.skills .fa-python {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.highlight {
+    border-bottom: 2px solid rgb(240, 234, 234);
+}
+  
+@keyframes rainbow { 
+    0%{background-position:left}
+    50%{background-position:right}
+    100%{background-position:left}
+}
+
+@media screen and (max-width: 1440px) {
+    .project .project-languages {
+        font-size: 12px;
+    }
+
+    .project .firwl h4 {
+        font-size: 20px;
+    }
+    .project .firwl h2 {
+        font-size: 26px;
+    }
+
+    .project .firwl p {
+        font-size: 22px;
+    }
+
+    .project .firwl-img {
+        width: 500px;
+        height: 250px;
+    }
+
+    .project .color h4 {
+        font-size: 20px;
+    }
+    .project .color h2 {
+        font-size: 26px;
+    }
+
+    .project .color p {
+        font-size: 22px;
+    }
+
+    .project .color-img {
+        width: 500px;
+        height: 250px;
+    }
+
+    .project .netflix h4 {
+        font-size: 20px;
+    }
+    .project .netflix h2 {
+        font-size: 26px;
+    }
+
+    .project .netflix p {
+        font-size: 22px;
+    }
+
+    .project .netflix-img {
+        width: 500px;
+        height: 250px;
+    }
+
+    .project .gpt3 h4 {
+        font-size: 20px;
+    }
+    .project .gpt3 h2 {
+        font-size: 26px;
+    }
+
+    .project .gpt3 p {
+        font-size: 22px;
+    }
+
+    .project .gpt3 .gpt3-img {
+        width: 500px;
+        height: 250px;
+    }
+    
+    .contact .col-md-7 {
+        margin-left: -50px;
+    }
+
+    #email {
+        width: 250px;
+    }
+
+    .contact form button {
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .project .firwl p {
+        font-size: 20px;
+    }
+
+    .project .color p {
+        font-size: 20px;
+    }
+
+    .project .netflix p {
+        font-size: 20px;
+    }
+
+    .project .gpt3 p {
+        font-size: 20px;
+    }
+
+    #email {
+        width: 217px;
+    }
+
+    .contact form button {
+        width: 217px;
+    }
+
+    .contact form {
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .about p {
+        font-size: 20px;
+    }
+
+    .skills .fa-bootstrap {
+        margin-top: 141px;
+    }
+
+    .skills .fa-python {
+        margin-top: 110px;
+    }
+    
+    .project .project-languages {
+        font-size: 10px;
+    }
+
+    .project .firwl h4 {
+        font-size: 16px;
+    }
+    .project .firwl h2 {
+        font-size: 22px;
+    }
+
+    .project .firwl p {
+        font-size: 18px;
+    }
+
+    .project .firwl-img {
+        width: 400px;
+        height: 200px;
+    }
+
+    .project .color h4 {
+        font-size: 16px;
+    }
+    .project .color h2 {
+        font-size: 22px;
+    }
+
+    .project .color p {
+        font-size: 18px;
+    }
+
+    .project .color-img {
+        width: 400px;
+        height: 200px;
+    }
+
+    .project .netflix h4 {
+        font-size: 16px;
+    }
+    .project .netflix h2 {
+        font-size: 22px;
+    }
+
+    .project .netflix p {
+        font-size: 18px;
+    }
+
+    .project .netflix-img {
+        width: 400px;
+        height: 200px;
+    }
+
+    .project .gpt3 h4 {
+        font-size: 16px;
+    }
+    .project .gpt3 h2 {
+        font-size: 22px;
+    }
+
+    .project .gpt3 p {
+        font-size: 18px;
+    }
+
+    .project .gpt3 .gpt3-img {
+        width: 400px;
+        height: 200px;
+    }
+
+    .contact .contact-details h2 {
+        font-size: 25px;
+    }
+
+    .contact .contact-details h3 {
+        font-size: 18px;
+    }
+
+    .contact .contact-details p {
+        font-size: 18px;
+    }
+
+    .contact .contact-details a {
+        font-size: 16px;
+    }
+    
+    .contact .col-md-7 {
+        margin-left: -100px;
+    }
+
+    #email {
+        width: 218px;
+    }
+
+    .contact form button {
+        width: 218px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .about img {
+        width: 350px;
+        margin: 0;
+    }
+
+    .about #aboutimg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about p {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .skills .fa-python {
+        margin-top: 80px;
+    }
+
+    .project .firwl p {
+        font-size: 15px;
+    }
+
+    .project .firwl-img {
+        width: 350px;
+        height: 175px;
+    }
+
+    .project .color p {
+        font-size: 15px;
+    }
+
+    .project .color-img {
+        width: 350px;
+        height: 175px;
+    }
+
+    .project .netflix p {
+        font-size: 15px;
+    }
+
+    .project .netflix-img {
+        width: 350px;
+        height: 175px;
+    }
+
+    .project .gpt3 p {
+        font-size: 15px;
+    }
+
+    .project .gpt3 .gpt3-img {
+        width: 350px;
+        height: 175px;
+        margin-top: 50px;
+    }
+
+    .contact {
+        padding-bottom: 50px;
+    }
+
+    .contact .contact-details h2 {
+        font-size: 25px;
+    }
+
+    .contact .contact-details h3 {
+        font-size: 18px;
+    }
+
+    .contact .contact-details p {
+        font-size: 16px;
+    }
+
+    .contact .contact-details a {
+        font-size: 16px;
+    }
+
+    .contact .col-md-7 {
+        margin-top: 100px;
+    }
+
+    #email {
+        width: 130px;
+        margin-left: 8px;
+    }
+
+    .contact form button {
+        width: 154px;
+        margin-top: 23px;
+        margin-left: 8px;
+    }
+
+    .contact form textarea {
+        height: 40px;
+        width: 290px;
+    }
+
+    .contact form input, .contact form button {
+        height: 25px;
+        width: 130px;
+    }
+
+    .contact form input, .contact form textarea {
+        margin-left: -15px;
+    }
+
+    .contact form {
+        width: 375px;
+        height: 300px;
+        font-size: 12px;
+    }
+
+    .contact label {
+        margin-left: -15px;
+    }
+
+    .contact .email-label {
+        margin-left: 9px;
+    }
+
+    .footer h1 {
+        font-size: 14px;
+    }
+
+    .footer h2 {
+        font-size: 14px;
+    }
+
+    .footer .icons {
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (width: 768px) {
+    .contact form {
+        width: 375px;
+    }
+
+    .contact label {
+        margin-left: -15px;
+    }
+
+    .contact .email-label {
+        margin-left: 9px;
+    }
+}
+
+@media screen and (max-width: 767px) { 
+
+    .main-menu {
+        margin-left: -30px;
+    }
+
+    .main-menu li {
+        padding-left: 80px;
+    }
+
+    .about #aboutimg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about img {
+        width: 300px;
+        margin: 0;
+    }
+
+    .about li {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about .resume {
+        margin: 0;
+    }
+
+    .about p {
+        text-align: center;
+    }
+
+    .skills .fa-bootstrap {
+        margin-top: 50px;
+    }
+
+    .skills .fa-css3-alt {
+        margin-top: 50px;
+    }
+
+    .skills .fa-react {
+        margin-top: 50px;
+    }
+
+    .skills .fa-js-square {
+        margin-top: 50px;
+    }
+
+    .skills .fa-python {
+        margin-top: 50px;
+    }
+
+    .project .project-languages {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project .firwl h4 {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .project .firwl h2 {
+        font-size: 26px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .project .firwl p {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .project .firwl .firwl-img {
+        width: 500px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        margin-left: 5px;
+    }
+
+    .project .firwl .firwl-img:hover {
+        margin-top: 20px;
+    }
+
+    .project .color h4 {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .project .color h2 {
+        font-size: 26px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .project .color p {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .project .color .color-img {
+        width: 500px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        margin-left: 5px;
+    }
+
+    .project .color .color-img:hover {
+        margin-top: 20px;
+    }
+
+    .project .netflix h4 {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .project .netflix h2 {
+        font-size: 26px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .project .netflix p {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .project .netflix .netflix-img {
+        width: 500px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        margin-left: 7px;
+    }
+
+    .project .netflix .netflix-img:hover {
+        margin-top: 20px;
+    }
+
+    .project .gpt3 h4 {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .project .gpt3 h3 {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .project .gpt3 h2 {
+        font-size: 26px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .project .gpt3 p {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .project .gpt3 .gpt3-img {
+        width: 500px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        margin-left: 5px;
+    }
+
+    .project .gpt3 .gpt3-img:hover {
+        margin-top: 20px;
+    }
+
+    .contact {
+        padding-bottom: 0;
+    }
+
+    .contact .col-md-5 {
+        margin-top: 50px;
+    }
+
+    .contact .col-md-7 {
+        margin-top: 20px;
+        margin-left: -120px;
+    }
+
+    #email {
+        width: 425px;
+        margin-left: -15px;
+    }
+
+    .contact .email-label {
+        margin-left: -15px;
+    }
+    .contact form {
+        width: 500px;
+        height: 350px;
+    }
+
+    .contact form button {
+        width: 425px;
+        margin-top: 23px;
+        margin-left: -15px;
+    }
+
+    .contact form textarea {
+        height: 30px;
+        width: 425px;
+    }
+
+    .contact form input {
+        width: 425px;
+    }
+
+    .contact .msg-label {
+        display: flex;
+        align-items: center;
+        margin-top: -40px;
+
+    }
+
+    .footer h1 {
+        font-size: 12px;
+        float: left;
+    }
+
+    .footer h2 {
+        font-size: 12px;
+        margin-top: -22px;
+    }
+    
+    .footer .icons {
+        font-size: 20px;
+        display: inline-block;
+        padding-left: 400px;
+        margin-top: -28px;
+    }
+
+    .footer .fa-twitter, .fa-linkedin, .fa-instagram-square, .fa-github {
+        margin-left: 5px;
+      }
+}
+
+@media screen and (max-width: 576px) {
+    .main {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
+
+      .main-menu {
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+        position: absolute;
+        top: -1000px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: -1;
+      }
+    
+      .main-menu.active {
+        display: block;
+        background: #7510F7;
+        left: 0;
+        top: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 99;
+        height: 55vh;
+        font-size: 40px;
+        margin: 0;
+        width: 72vh;
+        margin-top: 50px;
+      }
+
+      .main-menu.active li a {
+        margin-left: -80px;
+        font-size: 25px;
+      }
+    
+      .navbar__toggle .bar {
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background: #fff;
+      }
+
+      .navbar-item {
+        width: 100%;
+        margin-top: 35px;
+      }
+
+      .navbar__links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+      }
+  
+      #mobile-menu {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%, 20%);
+        display: block;
+      }
+
+      .navbar__toggle .bar {
+        display: block;
+        cursor: pointer;
+      }
+    
+      #mobile-menu.is-active .bar:nth-child(2) {
+        opacity: 0;
+      }
+    
+      #mobile-menu.is-active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+      }
+    
+      #mobile-menu.is-active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+      }
+
+
+      .hero .container .hero-img {
+          display: flex;
+          justify-content: center;
+      }
+
+      .about p {
+          font-size: 15px;
+      }
+
+      .skills p {
+          font-size: 15px;
+          font-weight: 800;
+      }
+
+      .project br {
+          display: none;
+      }
+
+      .project .firwl #firwlimg {
+        display: flex;
+        justify-content: center;
+      }
+
+      .project .firwl p {
+          font-size: 18px;
+      }
+
+      .project .firwl .firwl-img {
+          width: 350px;
+          height: 177px;
+          margin: 0;
+      }
+
+      .project .color p {
+        font-size: 18px;
+    }
+
+    .project .color #colorimg {
+        display: flex;
+        justify-content: center;
+      }
+
+    .project .color .color-img {
+        width: 350px;
+        height: 177px;
+        margin: 0;
+    }
+
+    .project .netflix p {
+        font-size: 18px;
+    }
+
+    .project .netflix #netfliximg {
+        display: flex;
+        justify-content: center;
+      }
+
+    .project .netflix .netflix-img {
+        width: 350px;
+        height: 177px;
+        margin: 0;
+    }
+
+    .project .gpt3 p {
+        font-size: 18px;
+    }
+
+    .project .gpt3 #gpt3img {
+        display: flex;
+        justify-content: center;
+      }
+
+    .project .gpt3 .gpt3-img {
+        width: 350px;
+        height: 177px;
+        margin: 0;
+    }
+
+    .contact .col-md-7 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact form {
+        width: 400px;
+    }
+
+    .contact form textarea {
+        width: 325px;
+    }
+
+    .contact form input {
+        width: 325px;
+    }
+
+    .contact #email {
+        width: 325px;
+    }
+
+    .contact form button {
+        width: 325px;
+    }
+
+    .footer .col-md-4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer h2 {
+        padding-top: 40px;
+    }
+
+    .footer .icons {
+        padding-top: 40px;
+        padding-left: 0;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .hero img {
+        margin: 0;
+    }
+
+    .main-menu.active {
+        height: 55vh;
+        width: 53vh;
+    }
+
+    .about #aboutimg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about img {
+        width: 300px;
+        margin: 0;
+    }
+
+    .about li {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about .resume {
+        margin: 0;
+    }
+
+    .skills p {
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    .project br {
+        display: none;
+    }
+
+    .project .firwl p {
+        font-size: 18px;
+    }
+    
+    .project .firwl #firwlimg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project .firwl .firwl-img {
+        width: 350px;
+        height: 177px;
+        margin: 0;
+    }
+
+    .project .color p {
+        font-size: 18px;
+    }
+
+    .project .color #colorimg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project .color .color-img {
+        width: 350px;
+        height: 177px;
+        margin: 0;
+    }
+
+    .project .netflix p {
+        font-size: 18px;
+    }
+
+    .project .netflix #netfliximg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project .netflix .netflix-img {
+        width: 350px;
+        height: 177px;
+        margin: 0;
+    }
+
+    .project .gpt3 p {
+        font-size: 18px;
+    }
+
+    .project .gpt3 #gpt3img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project .gpt3 .gpt3-img {
+        width: 350px;
+        height: 177px;
+        margin: 0;
+    }
+
+    .contact form {
+        width: 350px;
+    }
+
+    .contact form textarea {
+        width: 280px;
+    }
+
+    .contact form input {
+        width: 280px;
+    }
+
+    .contact #email {
+        width: 280px;
+    }
+
+    .contact form button {
+        width: 280px;
+    }
+
+    .footer .col-md-4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer h2 {
+        padding-top: 40px;
+    }
+
+    .footer .icons {
+        padding-top: 40px;
+        padding-left: 0;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hero h3 {
+        font-size: 18px;
+    }
+
+    .hero img {
+        margin-left: 0;
+    }
+
+    .main-menu.active {
+        height: 55vh;
+        width: 47vh;
+    }
+
+    .about #aboutimg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about img {
+        width: 300px;
+        margin: 0;
+    }
+
+    .about li {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about .resume {
+        margin: 0;
+    }
+
+    .skills p {
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    .project br {
+        display: none;
+    }
+
+    .project .firwl p {
+        font-size: 18px;
+    }
+
+    .project .firwl #firwlimg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project .firwl .firwl-img {
+        width: 300px;
+        height: 145px;
+        margin: 0;
+    }
+
+    .project .color p {
+        font-size: 18px;
+    }
+
+    .project .color #colorimg {
+        display: flex;
+        justify-content: center;
+      }
+
+    .project .color .color-img {
+        width: 300px;
+        height: 145px;
+        margin: 0;
+    }
+
+    .project .netflix p {
+        font-size: 18px;
+    }
+
+    .project .netflix #netfliximg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project .netflix .netflix-img {
+        width: 300px;
+        height: 145px;
+        margin: 0;
+    }
+
+    .project .gpt3 p {
+        font-size: 18px;
+    }
+
+    .project .gpt3 #gpt3img {
+        display: flex;
+        justify-content: center;
+      }
+
+    .project .gpt3 .gpt3-img {
+        width: 300px;
+        height: 145px;
+        margin: 0;
+    }
+
+    .contact form {
+        width: 320px;
+    }
+
+    .contact form textarea, .contact form input, .contact form button, .contact #email {
+        width: 250px;
+    }
+
+    .footer .col-md-4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer h2 {
+        padding-top: 40px;
+    }
+
+    .footer .icons {
+        padding-top: 40px;
+        padding-left: 0;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero h3 {
+        font-size: 15px;
+    }
+
+    .hero img {
+        margin-left: -3px;
+    }
+
+    .main-menu.active {
+        height: 55vh;
+        width: 40vh;
+    }
+
+    .about #aboutimg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about img {
+        width: 300px;
+        margin: 0;
+    }
+
+    .about li {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about .resume {
+        margin: 0;
+    }
+
+    .skills p {
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    .project br {
+        display: none;
+    }
+
+    .project .firwl p {
+        font-size: 15px;
+    }
+
+    .project .firwl .firwl-img {
+        width: 300px;
+        height: 150px;
+    }
+
+    .project .color p {
+        font-size: 15px;
+    }
+
+    .project .color .color-img {
+        width: 300px;
+        height: 150px;
+    }
+
+    .project .netflix p {
+        font-size: 15px;
+    }
+
+    .project .netflix .netflix-img {
+        width: 300px;
+        height: 150px;
+        margin-left: -3px;
+    }
+
+    .project .gpt3 p {
+        font-size: 15px;
+    }
+
+    .project .gpt3 .gpt3-img {
+        width: 300px;
+        height: 150px;
+        margin-left: -3px;
+    }
+
+    .contact form {
+        width: 300px;
+        margin-left: -3px;
+    }
+
+    .contact form textarea, .contact form input, .contact form button, .contact #email {
+        width: 225px;
+    }
+
+    .footer .col-md-4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer h2 {
+        padding-top: 40px;
+    }
+
+    .footer .icons {
+        padding-top: 40px;
+        padding-left: 0;
+        font-size: 25px;
+    }
+}
+
+
