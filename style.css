@@ -1539,6 +1539,12 @@ body {
 }
 
 @media screen and (max-width: 375px) {
+
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        overflow-y: scroll;
+    }
     .hero h3 {
         font-size: 18px;
     }
