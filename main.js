@@ -18,7 +18,7 @@ const highlightMenu = () => {
   const projectsMenu = document.querySelector('#projects-page');
   const contactMenu = document.querySelector('#contact-page');
   let scrollPos = window.scrollY;
- console.log(scrollPos);
+  // console.log(scrollPos);
 
 
   if ((elem && window.innerWidth < 576 && scrollPos < 600) || elem) {
